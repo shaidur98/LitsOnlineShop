@@ -1,0 +1,58 @@
+https://github.com/
+
+
+
+BitBucket.com->login and open site then apply the commands
+===============================================================
+
+
+git clone https://github.com/shaidur98/lits-bd.git  (clone site from server to local pc)
+
+
+git add -A (marged all files to local git in pc)
+
+
+git commit -m "The pogram is partialy completed" (add comments to local git)
+
+
+
+git pull origin master (marged all files to local pc)
+
+
+git push origin master  (upload all files to server)
+
+
+======================================================================
+other commands for configuring account from git bash with git acount
+
+$ git config --global user.email "shaidurr190@gmail.com"
+$ git config --global user.name "shaidur98"
+
+
+
+
+
+
+=========================================================
+
+Quick setup — if you’ve done this kind of thing before
+or
+
+We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
+
+echo "# lits-bd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/shaidur98/lits-bd.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/shaidur98/lits-bd.git
+git push -u origin master
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
